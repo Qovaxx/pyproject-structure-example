@@ -5,7 +5,9 @@ This is a simple example of the overall organization of a Python project based o
 * **./scripts** or **./bin** for that kind of command-line interface stuff
 * **.data/** - data storage
 * **./doc/** - package reference documentation
-* **./project/** - the code of interest (don't put source in a directory called src or lib, this makes it hard to run without installing)
+* **./project/** - the code of interest 
+
+(don't put source in a directory called src or lib, this makes it hard to run without installing)
 * **./project/test/** - package integration and unit tests
 * **.lib/** - static-link libraries, used for building .dlls, C extensions
 * **.LICENSE** - lawyering up
