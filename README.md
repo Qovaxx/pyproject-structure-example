@@ -17,6 +17,7 @@ This is a simple example of the overall organization of a Python project based o
 	* test directory in one of two places: under the package directory containing test code and resources or as a stand-alone top level directory 
 * **./project/native** - put non-Python sources such as C++ for pyd/so binary extension modules
 * **./resources** - data storage
+* **./var** - files that may be created or modified by the application during execution
 * **.LICENSE** - lawyering up
 * **.Makefile** - generic management tasks
 * **.requirements.txt** - development dependencies
