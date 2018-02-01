@@ -15,22 +15,22 @@ This is a simple example of the overall organization of a Python project based o
 * etc
 
 ```
-**Project/**
-|-- **bin/**
+Project/
+|-- bin/
 |   |-- project
 |
-|-- **data/**
-|-- **doc/**
-|-- **project/**
-|   |-- **test/**
+|-- data/
+|-- doc/
+|-- project/
+|   |-- test/
 |   |   |-- __init__.py
 |   |   |-- test_main.py
 |   |   
 |   |-- __init__.py
 |   |-- main.py
 |
-|-- **lib/**
-|-- **scripts/**
+|-- lib/
+|-- scripts/|
 |-- .gitignore
 |-- LICENSE
 |-- Makefile
